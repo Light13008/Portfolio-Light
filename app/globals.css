@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add a @layer base to apply the custom font globally */
+@layer base {
+  body {
+    @apply font-jetsmartmono bg-primary text-white leading-loose;  /* This applies the custom font-family */
+  }
+}
